@@ -1,0 +1,317 @@
+/* Global Styles */
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.row {
+    margin: 0;
+}
+
+button {
+    text-transform: uppercase;
+}
+
+/* onclick button animation */
+button:active {
+    transform: translateY(4px);
+}
+
+.intro h1 {
+    padding-top: 100px; 
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.intro hr {
+    border: none;
+    width: 80px;
+    height: 3px;
+}
+
+.card-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+/* Welcome section */
+
+/* Navigation */
+
+#welcome .navbar {
+    background-color: #87509c!important;
+    padding-top: 30px;
+}
+
+.navbar ul li a {
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 0;
+}
+
+.navbar ul li { 
+    padding: 2px 8px;
+}
+
+#welcome .navbar ul li:hover {
+    background-color: #643a79;
+    border-radius: 5px;
+}
+
+/* Welcome Text area */
+
+#welcome {
+    background-color: #87509c;
+}
+
+.w-txt {
+    padding: 100px 0;
+}
+
+.w-txt h1 {
+    margin-bottom: 50px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.w-txt button {
+    background-color: #eb7d4b;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 50px;
+    border-radius: 3px;
+    border-color: #eb7d4b;
+    box-shadow: 0px 2px 0px 0px rgba(200,106,64,1);
+}
+
+.w-txt button:hover {
+    color: #87509c;
+}
+
+/* Services section */
+
+#services {
+    background-color: #17c2a4;
+    color: #fff;
+    padding-bottom: 100px;
+}
+
+#services.intro hr {
+    background-color: #14a58c;
+}
+
+#services .card {
+    background-color: inherit;
+    border: none;
+}
+
+#services .card img {
+    width: 50%;
+    padding: 30px 0;
+}
+
+/* Team sectoin */
+
+#team {
+    background-color: #e7f1f8;
+    padding-bottom: 100px;
+}
+
+#team.intro hr {
+    background-color: #c8d9e5;
+}
+
+#team .card {
+    background-color: inherit;
+    border: none;
+}
+
+#team .card img {
+    width: 50%;
+    border-radius: 50%;
+    margin: 30px 0;
+}
+
+#team .card h5 {
+    margin-bottom: 3px;
+}
+
+#team .card .card-body p:nth-child(2){
+    color: #30bae7;
+}
+
+#team .social img {
+    width: 95%;
+}
+
+/* Skills section */
+
+#skills {
+    padding-bottom: 100px;
+}
+
+#skills.intro hr {
+    background-color: #dfe8ed;
+}
+
+#skills .card {
+    background-color: inherit;
+    border: none;
+}
+
+#skills .card img {
+    width: 50%;
+    margin-top: 80px;
+}
+
+/* Portfolio section */
+
+#portfolio {
+    background-color: #ffdd99;
+    padding-bottom: 100px;
+}
+
+#portfolio.intro hr {
+    background-color: #e5c37f;
+}
+
+#portfolio .navbar ul li {
+    background-color: #ebc985;
+    padding: 2px 20px;
+    margin: 20px 5px;
+    border-radius: 3px;
+}
+
+#portfolio .navbar ul li:hover, #portfolio .navbar ul li:active {
+    background-color: #fff;
+}
+
+#portfolio .navbar ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+#portfolio h5 {
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+#portfolio button {
+    background-color: #17c2a4;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 50px;
+    margin-top: 40px;
+    border-radius: 3px;
+    border-color: #17c2a4;
+    box-shadow:  0px 2px 0px 0px rgba(20,165,140,1);
+}
+
+#portfolio button:hover {
+    color: #ffdd99;
+}
+
+/* About us section */
+
+#about {
+    background-color: #d74680;
+    color: #fff;
+    padding-bottom: 100px;
+}
+
+#about.intro hr {
+    background-color: #b73c6d;
+}
+
+/* setting a margin for our first div in the about section */
+#about > div:first-of-type {
+    margin: 60px 0 50px;
+}
+
+.a-box img {
+    border-radius: 50%;
+}
+
+.a-box blockquote, .a-box h4, .a-box p {
+    text-align: left;
+}
+
+.a-box blockquote {
+    font-style: italic;
+}
+
+.a-box h4 {
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+}
+
+.a-box p {
+    color: #ffdd99;
+}
+
+/* Contact section */
+
+#contact {
+    background-color: #3c5499;
+    color: #fff;
+    padding-bottom: 100px;
+    border-bottom: 1px solid #c8d9e5;
+}
+
+#contact.intro hr {
+    background-color: #273a71;
+}
+
+#contact form {
+    margin-top: 50px;
+}
+
+#contact form input, #contact form textarea {
+    background-color: #273a71;
+    border: none;
+}
+
+/* overwritting bootstrap's placeholder color */
+::placeholder {
+    color: #fff!important;
+}
+
+#contact button {
+    background-color: #30bae7;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 50px;
+    margin-top: 40px;
+    border-radius: 3px;
+    border-color: #30bae7;
+    box-shadow:  0px 2px 0px 0px rgba(41,158,197,1);
+}
+
+#contact button:hover {
+    color: #3c5499;
+}
+
+/* Footer */
+
+footer {
+    background-color: #344b8e;
+    padding: 40px 0;
+}
+
+footer a {
+    font-weight: bold;
+    margin: 0 20px;
+    color: #fff;
+}
+
+footer a:hover {
+    color: #ffdd99;
+    text-decoration: none;
+}
+/* Media Queries */
+
