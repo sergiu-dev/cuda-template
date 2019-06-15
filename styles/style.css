@@ -215,6 +215,10 @@ button:active {
     color: #ffdd99;
 }
 
+#portfolio img {
+    width: 50%;
+}
+
 /* About us section */
 
 #about {
